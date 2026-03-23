@@ -1,45 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umut Can Turhan</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">Research</a>
-    <a href="#">Publications</a>
-    <a href="#">Contact</a>
-</div>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">Umut Can Turhan</div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#publication">Publication</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
 
-<div class="container">
+        <div class="hero-content">
+            <div class="profile-wrapper">
+                <img src="profile.jpg" alt="Profile picture of Umut Can Turhan" class="profile-pic">
+            </div>
+            <h1>Umut Can Turhan</h1>
+            <p class="subtitle">
+                Quantum Many-Body Physics • Fractional Quantum Hall Systems •
+                Physical Machine Learning • Strongly Correlated Systems
+            </p>
+            <p class="hero-text">
+                PhD Student in Physics at Bilkent University
+            </p>
+        </div>
+    </header>
 
-    <div class="profile">
-        <h1>Umut Can Turhan</h1>
-        <p>Condensed Matter Physics • Fractional Quantum Hall Systems • Julia Simulations</p>
-    </div>
+    <main class="container">
 
-    <h2>About</h2>
-    <p>
-        I am a physicist working on strongly correlated quantum systems,
-        fractional statistics, and numerical many-body methods.
-    </p>
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>
+                I am a PhD student in the Department of Physics at Bilkent University.
+                My research lies at the intersection of condensed matter physics,
+                strongly correlated quantum systems, topological phases of matter,
+                and emerging physical machine learning approaches.
+            </p>
 
-    <h2>Research Interests</h2>
-    <ul>
-        <li>Fractional Quantum Hall Effect</li>
-        <li>Bosonic Collapse Phenomena</li>
-        <li>Topological Lattice Models</li>
-        <li>Exact Diagonalization Techniques</li>
-    </ul>
+            <h3>Education</h3>
+            <ul class="timeline">
+                <li>
+                    <strong>Bilkent University</strong>, Ankara — <em>PhD in Physics</em> (2025–present)
+                </li>
+                <li>
+                    <strong>Middle East Technical University (METU)</strong>, Ankara — <em>MSc in Physics</em>
+                </li>
+                <li>
+                    <strong>Mimar Sinan Fine Arts University</strong>, Istanbul — <em>BSc in Physics</em>
+                </li>
+                <li>
+                    <strong>Gaziantep University</strong> — <em>Mechatronics</em>
+                </li>
+            </ul>
 
-    <div class="footer">
-        © 2026 — Hosted on GitHub Pages
-    </div>
+            <h3>TÜBİTAK Projects & Scholarships</h3>
+            <ul>
+                <li>
+                    <strong>TÜBİTAK ARDEB</strong> — <em>Quantum Phases of Anisotropic Gases</em> (Project No: 124F122)
+                </li>
+                <li>
+                    <strong>TÜBİTAK ARDEB</strong> — <em>Perpendicular Space Calculations for Quasicrystals</em> (Project No: 122F346)
+                </li>
+                <li>
+                    <strong>TÜBİTAK 2504 Bilateral Cooperation Program</strong> — 
+                    <em>Strongly-Correlated Topological States of Neutral Quantum Gases</em> (Project No: 119N192)
+                </li>
+                <li>
+                    <strong>TÜBİTAK BİDEB 2247-C</strong> — 
+                    <em>Intern Researcher Scholarship Program</em>,
+                    Topological Flat Band Models and Chern Numbers of Many-Body Bands
+                </li>
+            </ul>
+        </section>
 
-</div>
+        <section id="research" class="section">
+            <h2>Research Interests</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Fractional Quantum Hall Physics</h3>
+                    <p>
+                        Fractional quantum Hall states, fractional statistics,
+                        bosonic quantum Hall systems, and strongly correlated phases.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Rotating Bosonic Systems</h3>
+                    <p>
+                        Rapidly rotating Bose gases, collapse phenomena,
+                        many-body effects, and exotic correlated ground states.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Topological Lattice Models</h3>
+                    <p>
+                        Fractional Chern insulators, flat-band physics,
+                        Hofstadter-type models, and topological band structures.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Physical Neural Networks</h3>
+                    <p>
+                        Analog computation, physical machine learning,
+                        and hardware-inspired approaches to learning in complex systems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="publication" class="section">
+            <h2>Latest Publication</h2>
+            <div class="publication-box">
+                <p>
+                    <strong>Ali Pazarci, Umut Can Turhan, Nader Ghazanfari, Ilmar Gahramanov</strong>
+                </p>
+                <p>
+                    “Hamiltonian formalism for nonlinear Schrödinger equations”
+                </p>
+                <p>
+                    <em>Communications in Nonlinear Science and Numerical Simulation</em>,
+                    Volume 121, 2023, Article 107191.
+                </p>
+                <p>
+                    <a href="https://doi.org/10.1016/j.cnsns.2023.107191" target="_blank">
+                        DOI: 10.1016/j.cnsns.2023.107191
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> <a href="mailto:can.turhan@bilkent.edu.tr">can.turhan@bilkent.edu.tr</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">Add your GitHub profile link here</a></p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Umut Can Turhan • Hosted on GitHub Pages</p>
+    </footer>
 
 </body>
 </html>
