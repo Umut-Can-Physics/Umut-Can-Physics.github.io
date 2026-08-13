@@ -218,14 +218,19 @@ h1 {
 }
 
 .publication-box {
-    border-left: 4px solid var(--accent);
-    background: #f8fbff;
-    padding: 18px 20px;
-    border-radius: 10px;
+    padding: 1.4rem 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+}
+
+.publication-box:first-of-type {
+    border-top: 1px solid var(--border);
 }
 
 .publication-box + .publication-box {
-    margin-top: 16px;
+    margin-top: 0;
 }
 
 .publication-reference {
@@ -233,9 +238,19 @@ h1 {
     padding-left: 2rem;
     text-indent: -2rem;
     overflow-wrap: anywhere;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.02rem;
-    line-height: 1.75;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text);
+}
+
+.publication-reference a {
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.publication-reference a:hover {
+    text-decoration: underline;
 }
 
 .footer {
