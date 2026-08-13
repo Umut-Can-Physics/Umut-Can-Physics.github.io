@@ -224,6 +224,20 @@ h1 {
     border-radius: 10px;
 }
 
+.publication-box + .publication-box {
+    margin-top: 16px;
+}
+
+.publication-reference {
+    margin: 0;
+    padding-left: 2rem;
+    text-indent: -2rem;
+    overflow-wrap: anywhere;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.02rem;
+    line-height: 1.75;
+}
+
 .footer {
     text-align: center;
     color: var(--muted);
