@@ -90,6 +90,13 @@ h1 {
 }
 .section > :nth-child(2) { grid-row: 1; }
 .section h3 { font: 600 1.1rem var(--sans); }
+#research h3 {
+    color: #2b605c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .45rem;
+}
 .section p + h3 { margin-top: 1.6rem; }
 .section ul { list-style: none; padding: 0; }
 .section li { padding-block: .8rem; }
